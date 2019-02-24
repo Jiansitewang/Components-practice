@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Jiansitewang/Components-practice/issues"
   },
-  "homepage": "https://github.com/Jiansitewang/Components-practice#readme"
+  "homepage": "https://github.com/Jiansitewang/Components-practice#readme",
+  "dependencies": {
+    "vue": "^2.6.7"
+  }
 }
