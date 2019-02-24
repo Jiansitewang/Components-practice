@@ -1,0 +1,23 @@
+{
+  "name": "wkc",
+  "version": "0.0.1",
+  "description": "UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiansitewang/Components-practice.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "Jiansitewang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jiansitewang/Components-practice/issues"
+  },
+  "homepage": "https://github.com/Jiansitewang/Components-practice#readme"
+}
