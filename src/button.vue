@@ -16,6 +16,7 @@
       loading: {
         type: Boolean,
         default: false
+
       },
       iconPosition: {
         type: String,
@@ -51,4 +52,5 @@
       animation: spin 2s infinite linear;
     }
   }
+
 </style>
