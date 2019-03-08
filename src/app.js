@@ -28,6 +28,7 @@ import spies from 'chai-spies'
 const expect = chai.expect
 chai.use(spies)
 
+//测试 是否含有icon
 {
   const Constructor = Vue.extend(Button)
   const vm = new Constructor({
@@ -43,6 +44,7 @@ chai.use(spies)
   vm.$destroy()
 }
 
+// 测试 loading
 {
   const Constructor = Vue.extend(Button)
   const vm = new Constructor({
