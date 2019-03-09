@@ -12,6 +12,7 @@
   import Icon from './icon'
 
   export default {
+    name: 'wkcButton',
     components: {
       'g-icon': Icon
     },
