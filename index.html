@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Components-practice</title>
   <style>
-    *{margin: 0; padding: 0; box-sizing: border-box;}
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+
     html {
       --button-height: 32px;
       --font-size: 14px;
@@ -18,15 +19,17 @@
       --border-color: #999;
       --border-color-hover: #666
     }
-    #app{
+
+    #app {
       margin: 20px;
     }
-    body{
+
+    body {
       font-size: var(--font-size);
     }
   </style>
   <style>
-    .box{
+    .box {
       margin: 20px;
     }
 
@@ -54,10 +57,13 @@
   <div class="box">
     <g-input value="李四" disabled></g-input>
     <g-input value="张三" readonly></g-input>
-    <g-input value="王五" ></g-input>
+    <g-input value="王五"></g-input>
   </div>
   <div class="box">
-    <g-input value="王" error="姓名不能少于两个字" ></g-input>
+    <g-input value="王" @change="inputChange"></g-input>
+  </div>
+  <div class="box">
+    <g-input value="王" error="姓名不能少于两个字"></g-input>
   </div>
 
 </div>
