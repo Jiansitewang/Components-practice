@@ -21,43 +21,43 @@ describe('Input', () => {
     it('接收 value',() => {
       vm = new Constructor({
         propsData: {
-          value: '1234',
+          value: '1234'
         }
       }).$mount()
       const inputElement = vm.$el.querySelector('input')
-      expect(inputElement.value).to.eq('1234')
+      expect(inputElement.value).to.equal('1234')
     })
 
     it('接收 disabled',() => {
       vm = new Constructor({
         propsData: {
-          disabled: 'true',
+          disabled: 'true'
         }
       }).$mount()
       const inputElement = vm.$el.querySelector('input')
-      expect(inputElement.disabled).to.eq(true)
+      expect(inputElement.disabled).to.equal(true)
     })
 
     it('接收 readonly',() => {
       vm = new Constructor({
         propsData: {
-          readOnly: 'true',
+          readonly: 'true'
         }
       }).$mount()
       const inputElement = vm.$el.querySelector('input')
-      expect(inputElement.readOnly).to.eq(true)
+      expect(inputElement.readOnly).to.equal(true)
     })
 
     it('接收 error',() => {
       vm = new Constructor({
         propsData: {
-          error: '你有问题',
+          error: '有问题'
         }
       }).$mount()
       const useElement = vm.$el.querySelector('use')
       expect(useElement.getAttribute('xlink:href')).to.equal('#i-error')
       const errorMessage = vm.$el.querySelector('.errorMessage')
-      expect(errorMessage.innerText).to.eq('你有问题')
+      expect(errorMessage.innerText).to.equal('有问题')
     })
   })
 
@@ -74,9 +74,14 @@ describe('Input', () => {
         vm.$on(eventName,callback)
         //触发事件
         let event = new Event(eventName)
+        Object.defineProperty(
+          event,'target', {
+            value: {value: 'hi'}, enumerable:true
+          }
+        )
         let inputElement = vm.$el.querySelector('input')
         inputElement.dispatchEvent(event)
-        expect(callback).to.have.been.calledWith(event)
+        expect(callback).to.have.been.calledWith('hi')
       })
     })
   })
