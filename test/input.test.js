@@ -51,13 +51,13 @@ describe('Input', () => {
     it('接收 error',() => {
       vm = new Constructor({
         propsData: {
-          error: '有问题'
+          error: '123'
         }
       }).$mount()
       const useElement = vm.$el.querySelector('use')
       expect(useElement.getAttribute('xlink:href')).to.equal('#i-error')
       const errorMessage = vm.$el.querySelector('.errorMessage')
-      expect(errorMessage.innerText).to.equal('有问题')
+      expect(errorMessage.innerText).to.equal('123')
     })
   })
 

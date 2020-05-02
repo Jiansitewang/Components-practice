@@ -8,7 +8,7 @@
     >
 
     <template v-if="error">
-      <g-icon name="error" class="icon-error"></g-icon>
+      <icon name="error" class="icon-error"></icon>
       <span class="errorMessage">{{error}}</span>
     </template>
   </div>
