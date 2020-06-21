@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
@@ -38,6 +38,25 @@
 </head>
 <body>
 <div id="app">
+  <g-row>
+    <g-col>1</g-col>
+    <g-col>1</g-col>
+  </g-row>
+  <g-row>
+    <g-col>1</g-col>
+    <g-col>1</g-col>
+    <g-col>1</g-col>
+  </g-row>
+  <g-row>
+    <g-col>1</g-col>
+    <g-col>1</g-col>
+    <g-col>1</g-col>
+    <g-col>1</g-col>
+  </g-row>
+  <g-row>
+    <g-col span="2">2</g-col>
+    <g-col span="22">22</g-col>
+  </g-row>
   <div class="box">
     <g-button :loading="loading1" @click="loading1 = !loading1">
       按钮
@@ -56,7 +75,7 @@
   </div>
   <div class="box">
     <g-input value="李四" disabled></g-input>
-    <g-input value="张三" readonly></g-input> 
+    <g-input value="张三" readonly></g-input>
     <g-input value="王五" v-model="message"></g-input>
     <p>{{message}}</p>
     <button @click="message+=1">+1</button>
