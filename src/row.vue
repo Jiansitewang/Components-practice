@@ -1,5 +1,5 @@
 <template>
-  <div class="row" :style="rowStyle">
+  <div class="row" :style="rowStyle" :class="rowClass">
     <slot></slot>
   </div>
 
@@ -11,6 +11,12 @@
     props:{
       gutter:{
         type:[Number,String]
+      },
+      align:{
+        type: String,
+        validator(value) {
+          return ['left','right','center'].includes(value)
+        }
       }
     },
     mounted() {
@@ -25,6 +31,10 @@
           marginRight: -gutter/2+'px',
           marginLeft: -gutter/2+'px'
         }
+      },
+      rowClass(){
+        let {align} = this
+        return [align && `align-${align}`]
       }
     }
   }
