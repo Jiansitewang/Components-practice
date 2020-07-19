@@ -38,13 +38,38 @@
 </head>
 <body>
 <style>
-  .demo{
+  .demo {
     background: #dddddd;
     border: 1px solid gray;
     height: 100px;
   }
+
+  .demo2 {
+    border: 1px solid #B4E6FF;
+    min-height: 100px;
+  }
+  hr{
+    height: 20px;
+  }
 </style>
 <div id="app">
+  <g-layout style="height: 100vh;">
+    <g-header class="demo2">header</g-header>
+    <g-layout>
+      <g-content class="demo2">content</g-content>
+      <g-sider class="demo2">sider</g-sider>
+    </g-layout>
+    <g-footer class="demo2">footer</g-footer>
+  </g-layout>
+  <hr/>
+  <g-layout style="height: 100vh;">
+    <g-sider class="demo2">sider</g-sider>
+    <g-layout>
+      <g-header class="demo2">header</g-header>
+      <g-content class="demo2">content</g-content>
+      <g-footer class="demo2">footer</g-footer>
+    </g-layout>
+  </g-layout>
   <g-row>
     <g-col span="23" offset="1" :narrow-pc="{span: 12,offset:12}">
       <div class="demo"></div>
