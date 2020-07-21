@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/Components-practice/',
   title: 'wkcUI',
   description: '学习vue',
   themeConfig: {
@@ -17,7 +18,13 @@ module.exports = {
       },
       {
         title: '组件',
-        children: ['/components/button']
+        children: [
+          '/components/button',
+          '/components/grid',
+          '/components/input',
+          '/components/layout'
+
+        ]
       }
     ]
   }
