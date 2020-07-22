@@ -44,14 +44,17 @@ new Vue({
       console.log(e.target.value);
     },
     showToast(){
-      this.$toast('<p>段落<strong>hi</strong><a href="http://qq,com">qq</a></p>',{
-        // closeButton: {
-        //   text: '关闭',
-        //   callBack(){
-        //     console.log('ok');
-        //   }
-        // },
-        enableHtml: true
+      this.$toast('不要把广告关了',{
+        closeButton: {
+          text: '知道了',
+          callBack(){
+            console.log('ok');
+          }
+        },
+        enableHtml: false,
+        autoClose: true,
+        autoCloseDelay: 50,
+        position: 'middle',
       })
     }
   }
