@@ -37,12 +37,22 @@ new Vue({
   },
   created(){
   },
+  mounted(){
+  },
   methods: {
     inputChange(e){
       console.log(e.target.value);
     },
     showToast(){
-      this.$toast('12345')
+      this.$toast('<p>段落<strong>hi</strong><a href="http://qq,com">qq</a></p>',{
+        // closeButton: {
+        //   text: '关闭',
+        //   callBack(){
+        //     console.log('ok');
+        //   }
+        // },
+        enableHtml: true
+      })
     }
   }
 })
