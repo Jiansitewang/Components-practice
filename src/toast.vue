@@ -88,6 +88,7 @@
   $toast-height: 40px;
   $toast-bg: rgba(0,0,0,0.75);
   .toast{
+    animation: fade-in .5s;
     display: flex;
     align-items: center;
     position: fixed;
@@ -125,5 +126,10 @@
       transform: translate(-50%,-50%);
     }
   }
+  @keyframes fade-in {
+    0% {opacity: 0;transform: translateY(100%)}
+    100% {opacity: 1; transform: translateY(0)}
+  }
+
 
 </style>
