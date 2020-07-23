@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f8d7a5-52fa-4832-a596-6bc77878803a" name="Default Changelist" comment="toast组件新功能: 避免重复新建toast">
+    <list default="true" id="63f8d7a5-52fa-4832-a596-6bc77878803a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="659">
+              <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="203">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/toast.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+            <state relative-caret-position="749">
+              <caret line="118" column="44" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="926">
-              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="437">
+              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -134,10 +134,10 @@
         <option value="$PROJECT_DIR$/docs/components/layout.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/row.vue" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/plugin.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/toast.vue" />
       </list>
     </option>
@@ -241,7 +241,7 @@
       <workItem from="1594029980367" duration="1215000" />
       <workItem from="1594186095618" duration="298000" />
       <workItem from="1594186580113" duration="38693000" />
-      <workItem from="1595426396413" duration="10401000" />
+      <workItem from="1595426396413" duration="12830000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1551027159473</created>
@@ -537,11 +537,25 @@
       <option name="project" value="LOCAL" />
       <updated>1595454582390</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="toast组件新功能: 渐变进入动画">
+      <created>1595460024518</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1595460024518</updated>
+    </task>
+    <task id="LOCAL-00044" summary="toast组件新功能: 避免重复新建toast-2">
+      <created>1595460062864</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1595460062864</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165531000" />
+    <option name="totallyTimeSpent" value="167960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="6" />
@@ -612,8 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新package.json" />
-    <MESSAGE value="更改package.json中的dist/index.js" />
     <MESSAGE value="版本0.0.3" />
     <MESSAGE value="添加svg.js 更改iconfont引入方式&#10;ReadMe更新" />
     <MESSAGE value="input组件初始化;button,button-group,icon,input添加name属性" />
@@ -637,7 +649,9 @@
     <MESSAGE value="toast组件新功能:自动关闭,关闭按钮,多行文字" />
     <MESSAGE value="toast组件新功能: 自定义position" />
     <MESSAGE value="toast组件新功能: 避免重复新建toast" />
-    <option name="LAST_COMMIT_MESSAGE" value="toast组件新功能: 避免重复新建toast" />
+    <MESSAGE value="toast组件新功能: 渐变进入动画" />
+    <MESSAGE value="toast组件新功能: 避免重复新建toast-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="toast组件新功能: 避免重复新建toast-2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js" />
@@ -917,24 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#g-layout#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#g-layout#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g-row#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sider.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -949,27 +945,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="437">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="n#style#0;n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#g-layout#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#g-layout#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g-row#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="203">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/toast.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+        <state relative-caret-position="749">
+          <caret line="118" column="44" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
         </state>
       </provider>
     </entry>
