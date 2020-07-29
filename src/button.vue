@@ -1,8 +1,8 @@
 <template>
-  <button class="g-button" :class="{[`icon-${iconPosition}`]: true}" @click="$emit('click')">
-    <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
-    <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
-    <div class="g-button-content">
+  <button class="w-button" :class="{[`icon-${iconPosition}`]: true}" @click="$emit('click')">
+    <w-icon class="icon" v-if="icon && !loading" :name="icon"></w-icon>
+    <w-icon class="loading icon" v-if="loading" name="loading"></w-icon>
+    <div class="w-button-content">
       <slot></slot>
     </div>
   </button>
@@ -14,7 +14,7 @@
   export default {
     name: 'wkcButton',
     components: {
-      'g-icon': Icon
+      'w-icon': Icon
     },
     // props:['icon','iconPosition']
     props: {
@@ -48,7 +48,7 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-  .g-button { font-size: $font-size; height: $button-height; padding: 0 1em;
+  .w-button { font-size: $font-size; height: $button-height; padding: 0 1em;
     border-radius: $border-radius; border: 1px solid $border-color;
     background: $button-bg;
     display: inline-flex; justify-content: center; align-items: center;
@@ -56,10 +56,10 @@
     &:hover { border-color: $border-color-hover; }
     &:active { background-color: $button-active-bg; }
     &:focus { outline: none; }
-    > .g-button-content { order: 2; }
+    > .w-button-content { order: 2; }
     > .icon { order: 1; margin-right: .1em; }
     &.icon-right {
-      > .g-button-content { order: 1; }
+      > .w-button-content { order: 1; }
       > .icon { order: 2; margin-right: 0; margin-left: .1em;}
     }
     .loading {

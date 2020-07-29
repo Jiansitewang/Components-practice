@@ -14,18 +14,18 @@ import Toast from './toast'
 import plugin from './plugin'
 
 Vue.use(plugin)
-Vue.component('g-button', Button)
-Vue.component('g-icon', Icon)
-Vue.component('g-button-group', ButtonGroup)
-Vue.component('g-input',Input)
-Vue.component('g-row',Row)
-Vue.component('g-col',Col)
-Vue.component('g-content', Content)
-Vue.component('g-footer', Footer)
-Vue.component('g-header', Header)
-Vue.component('g-layout', Layout)
-Vue.component('g-sider', Sider)
-Vue.component('g-toast', Toast)
+Vue.component('w-button', Button)
+Vue.component('w-icon', Icon)
+Vue.component('w-button-group', ButtonGroup)
+Vue.component('w-input',Input)
+Vue.component('w-row',Row)
+Vue.component('w-col',Col)
+Vue.component('w-content', Content)
+Vue.component('w-footer', Footer)
+Vue.component('w-header', Header)
+Vue.component('w-layout', Layout)
+Vue.component('w-sider', Sider)
+Vue.component('w-toast', Toast)
 
 new Vue({
   el: '#app',
