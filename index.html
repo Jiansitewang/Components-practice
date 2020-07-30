@@ -36,6 +36,8 @@
   </style>
 
 </head>
+
+
 <body>
 <style>
   .demo {
@@ -53,6 +55,35 @@
   }
 </style>
 <div id="app">
+  <w-tabs :selected.sync="defaultSelectedTab">
+    <w-tabs-head>
+      <w-tabs-item name="tab1">
+        <w-icon name="settings"></w-icon> tab1
+      </w-tabs-item>
+      <w-tabs-item name="tab2" disabled>
+        tab2
+      </w-tabs-item>
+      <w-tabs-item name="tab3">
+        tab3
+      </w-tabs-item>
+      <template slot="extraAction">
+        <button>Extra Actions</button>
+      </template>
+    </w-tabs-head>
+    <w-tabs-body>
+      <w-tabs-content>
+        tab1 content
+      </w-tabs-content>
+      <w-tabs-content>
+        tab2 content
+      </w-tabs-content>
+      <w-tabs-content>
+        tab3 content
+      </w-tabs-content>
+    </w-tabs-body>
+  </w-tabs>
+
+
   <button @click="showToast1">top</button>
   <button @click="showToast2">middle</button>
   <button @click="showToast3">bottom</button>

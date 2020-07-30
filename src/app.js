@@ -12,6 +12,12 @@ import Layout from './layout'
 import Sider from './sider'
 import Toast from './toast'
 import plugin from './plugin'
+import Tabs from './tabs'
+import TabsHead from './tabs-head'
+import TabsContent from './tabs-content'
+import TabsItem from './tabs-item'
+import TabsBody from './tabs-body'
+
 
 Vue.use(plugin)
 Vue.component('w-button', Button)
@@ -26,6 +32,11 @@ Vue.component('w-header', Header)
 Vue.component('w-layout', Layout)
 Vue.component('w-sider', Sider)
 Vue.component('w-toast', Toast)
+Vue.component('w-tabs', Tabs)
+Vue.component('w-tabs-content', TabsContent)
+Vue.component('w-tabs-head', TabsHead)
+Vue.component('w-tabs-item', TabsItem)
+Vue.component('w-tabs-body', TabsBody)
 
 new Vue({
   el: '#app',
@@ -33,7 +44,8 @@ new Vue({
     loading1: false,
     loading2: true,
     loading3: false,
-    message: ''
+    message: '',
+    defaultSelectedTab: 'tab2'
   },
   created(){
   },
