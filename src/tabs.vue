@@ -5,6 +5,7 @@
 </template>
 
 <script>
+  import Vue from 'vue'
   export default {
     name: "tabs",
     props: {
@@ -18,6 +19,19 @@
         validator(value){
           return ['horizontal','vertical'].indexOf(value) >= 0
         }
+      }
+    },
+    data(){
+      return {
+        eventBus: new Vue()
+      }
+    },
+    created(){
+      
+    },
+    provide(){
+      return {
+        eventBus: this.eventBus
       }
     }
   }

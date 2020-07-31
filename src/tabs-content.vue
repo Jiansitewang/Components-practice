@@ -6,7 +6,13 @@
 
 <script>
   export default {
-    name: "tabs-content"
+    name: "tabs-content",
+    inject: ['eventBus'],
+    created() {
+      this.eventBus.$on('update:selected',(name)=>{
+        console.log(name)
+      })
+    },
   }
 </script>
 

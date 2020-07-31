@@ -45,7 +45,7 @@ new Vue({
     loading2: true,
     loading3: false,
     message: '',
-    defaultSelectedTab: 'tab2'
+    defaultSelectedTab: 'tab2',
   },
   created(){
   },
