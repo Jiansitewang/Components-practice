@@ -55,6 +55,7 @@
   }
 </style>
 <div id="app">
+  <!--<w-tabs :selected="defaultSelectedTab" @update:selected="selectedTab = $event">-->
   <w-tabs :selected.sync="defaultSelectedTab">
     <w-tabs-head>
       <w-tabs-item name="tab1">
@@ -71,13 +72,13 @@
       </template>
     </w-tabs-head>
     <w-tabs-body>
-      <w-tabs-content>
+      <w-tabs-content name="tab1">
         tab1 content
       </w-tabs-content>
-      <w-tabs-content>
+      <w-tabs-content name="tab2">
         tab2 content
       </w-tabs-content>
-      <w-tabs-content>
+      <w-tabs-content name="tab3">
         tab3 content
       </w-tabs-content>
     </w-tabs-body>
