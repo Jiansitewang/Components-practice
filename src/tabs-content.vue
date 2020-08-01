@@ -40,7 +40,6 @@
 
 <style scoped lang="scss">
   .active{
-    background: red;
   }
 
 </style>

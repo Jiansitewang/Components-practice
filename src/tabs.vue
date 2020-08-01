@@ -26,14 +26,26 @@
         eventBus: new Vue()
       }
     },
-    created(){
-      
-    },
     provide(){
       return {
         eventBus: this.eventBus
       }
-    }
+    },
+    created(){
+
+    },
+    mounted() {
+      this.$children.forEach((child)=>{
+        if (child.$options.name === 'tabs-head'){
+          child.$children.forEach((item)=>{
+            if (item.$options.name === 'tabs-item' && item.$props.name === this.selected) {
+              this.eventBus.$emit('update:selected',this.selected,item)
+            }
+          })
+        }
+      })
+    },
+
   }
 </script>
 
