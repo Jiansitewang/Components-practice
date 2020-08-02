@@ -35,6 +35,9 @@
 
     },
     mounted() {
+      if (this.$children.length === 0){
+        console && console.warn &&
+        console.warn('tabs没有子组件')}
       this.$children.forEach((child)=>{
         if (child.$options.name === 'tabs-head'){
           child.$children.forEach((item)=>{
