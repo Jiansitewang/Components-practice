@@ -1,31 +1,90 @@
 <template>
-  <div>
-    <g-button>默认按钮</g-button>
-    <g-button icon="setting">默认按钮</g-button>
-    <g-button :loading="true">默认按钮</g-button>
-    <g-button disabled>默认按钮</g-button>
-    <pre><code>{{content}}</code></pre>
+  <div class="demo">
+    <h2>📌简单用法</h2>
+    <p>预览</p>
+    <div class="component-wrapper">
+      <div class="component-wrapper-demo">
+        <w-button>默认按钮</w-button>
+        <w-button icon="setting">默认按钮</w-button>
+        <w-button :loading="true">默认按钮</w-button>
+        <w-button disabled>默认按钮</w-button>
+      </div>
+      <div class="code-content" style="height: 0;">
+        <div class="code-content-height">
+          <!--<div class="code-user-desc">-->
+          <!--组件描述说明-->
+          <!--</div>-->
+          <pre><code class="vue">{{codeShow}}</code></pre>
+        </div>
+      </div>
+      <div class="lock-code" @click="showCode(0)" ref="xxx">
+        <w-icon class="icon-down" :name="isShow[0] === false ? 'down' : 'up'"></w-icon>
+        <span class="lock-code-word">{{isShow[0] === false ? '显示代码' : '隐藏代码'}}</span>
+      </div>
+    </div>
+    <h3>📌按钮组</h3>
+    <p>预览</p>
+    <div class="component-wrapper">
+      <div class="component-wrapper-demo">
+        <w-button-group>
+          <w-button icon="left">上一页</w-button>
+          <w-button>更多</w-button>
+          <w-button icon="right" icon-position="right">下一页</w-button>
+        </w-button-group>
+      </div>
+      <div class="code-content" style="height: 0;">
+        <div class="code-content-height">
+          <!--<div class="code-user-desc">-->
+          <!--组件描述说明-->
+          <!--</div>-->
+          <pre><code class="vue">{{codeShow2}}</code></pre>
+        </div>
+      </div>
+      <div class="lock-code" @click="showCode(1)" ref="xxx">
+        <w-icon class="icon-down" :name="isShow[1] === false ? 'down' : 'up'"></w-icon>
+        <span class="lock-code-word">{{isShow[1] === false ? '显示代码' : '隐藏代码'}}</span>
+      </div>
+    </div>
+    <h3>attributes</h3>
+    <p>组件参数说明后期扩展</p>
   </div>
-
 </template>
 
 <script>
+  import Icon from '../../../src/icon'
   import Button from '../../../src/button'
+  import ButtonGroup from '../../../src/button-group'
+  import mixin from '../mixin'
 
   export default {
-    components:{
-      'g-button': Button
+    name: 'demo',
+    mixins: [mixin],
+    components: {
+      'w-button': Button,
+      'w-icon': Icon,
+      'w-button-group': ButtonGroup
     },
-    data(){
+    data() {
       return {
-        content: `
-          <g-button>默认按钮</g-button>
-          <g-button icon="setting">默认按钮</g-button>
-          <g-button :loading="true">默认按钮</g-button>
-          <g-button disabled>默认按钮</g-button>
-        `.replace(/\t+| +/g,'').trim()
+        codeShow: `
+          <w-button>默认按钮</w-button>
+          <w-button icon="setting">默认按钮</w-button>
+          <w-button :loading="true">默认按钮</w-button>
+          <w-button disabled>默认按钮</w-button>
+        `.replace(/^\s*/gm, '').trim(),
+        codeShow2:`
+          <w-button-group>
+            <w-button icon="left">上一页</w-button>
+            <w-button>更多</w-button>
+            <w-button icon="right" icon-position="right">下一页</whh-button>
+          </w-button-group>
+        `.replace(/^\s*/gm, '').trim(),
+
       }
     }
   }
 </script>
 
+<style lang="scss" scoped>
+
+</style>
