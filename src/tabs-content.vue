@@ -39,7 +39,8 @@
 </script>
 
 <style scoped lang="scss">
-  .active{
+  .tabs-content{
+    padding: 1em;
   }
 
 </style>

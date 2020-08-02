@@ -31,8 +31,13 @@
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    border-bottom: 1px solid #dddddd;
     >.actionWrapper{
       margin-left: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1em;
     }
     >.tabsLine{
       position: absolute;
