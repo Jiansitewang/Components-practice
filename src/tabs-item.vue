@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-item" @click="xxx" :class="classes">
+  <div class="tabs-item" @click="clickEmitName" :class="classes">
     <slot></slot>
   </div>
 </template>
@@ -26,7 +26,8 @@
     computed:{
       classes(){
         return {
-          active:this.active
+          active:this.active,
+          disabled: this.disabled
         }
       }
     },
@@ -41,7 +42,8 @@
     },
 
     methods:{
-      xxx(){
+      clickEmitName(){
+        if (this.disabled){return}
         this.eventBus.$emit('update:selected',this.name,this)
       }
     }
@@ -51,6 +53,7 @@
 
 <style scoped lang="scss">
   $blue: #108EE9;
+  $disabled-text-color: #888888;
   .tabs-item{
     height: 100%;
     flex-shrink: 0;
@@ -61,7 +64,9 @@
     &.active{
       color: $blue;
       font-weight: bold;
-
+    }
+    &.disabled{
+      color: $disabled-text-color;
     }
   }
 
