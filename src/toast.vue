@@ -97,6 +97,7 @@
     left: 50%;
     transform: translateX(-50%);
     &.position-top{
+      z-index: 1000;
       top: 0;
       .toast{
         border-top-left-radius: 0;
