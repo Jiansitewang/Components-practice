@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-head">
+  <div class="tabs-head" ref="head">
     <div class="tabsLine" ref="tabsLine"></div>
     <slot></slot>
     <div class="actionWrapper">
@@ -15,8 +15,9 @@
     mounted() {
       this.eventBus.$on('update:selected', (child,item)=>{
         let {width,height,top,left} = item.$el.getBoundingClientRect()
+        let { left: left2 } = this.$refs.head.getBoundingClientRect()
         this.$refs.tabsLine.style.width = `${width}px`
-        this.$refs.tabsLine.style.left = `${left}px`
+        this.$refs.tabsLine.style.left = `${left-left2}px`
       })
     }
   }

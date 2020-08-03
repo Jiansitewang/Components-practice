@@ -26,6 +26,7 @@ module.exports = {
           '/components/input',
           '/components/layout',
           '/components/toast',
+          '/components/tabs',
         ]
       }
     ]
