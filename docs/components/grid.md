@@ -6,5 +6,5 @@ title: Grid
 使用方法
 
 <ClientOnly>
-<grid-vuep></grid-vuep>
+<grid-vp></grid-vp>
 </ClientOnly>

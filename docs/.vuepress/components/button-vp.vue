@@ -1,6 +1,5 @@
 <template>
   <div class="demo">
-
     <h2>📌简单用法</h2>
     <p>预览</p>
     <div class="component-wrapper">

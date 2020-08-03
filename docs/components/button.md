@@ -6,5 +6,5 @@ title: Button
 使用方法
 
 <ClientOnly>
-<button-vuep></button-vuep>
+<button-vp></button-vp>
 </ClientOnly>
