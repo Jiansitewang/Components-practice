@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f8d7a5-52fa-4832-a596-6bc77878803a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/mixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/components/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,58 +28,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            <state relative-caret-position="475">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#1813#1849#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/grid-vuep.vue">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/button.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/mixin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/button-group.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="708">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#1824#1845#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +54,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/public/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="533">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/grid-vuep.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="332" column="23" selection-start-line="332" selection-start-column="23" selection-end-line="332" selection-end-column="23" />
+              <folding>
+                <element signature="n#w-row#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#w-row#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#w-row#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#w-row#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/plugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -97,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
+            <state relative-caret-position="329">
+              <caret line="52" column="87" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#w-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#w-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -114,6 +107,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/mixin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
@@ -123,10 +125,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/enhanceApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="342">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -184,9 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/karma.conf.js" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/svg.js" />
         <option value="$PROJECT_DIR$/src/input.vue" />
@@ -207,42 +220,45 @@
         <option value="$PROJECT_DIR$/src/content.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/conponents/button-vuepress.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/button-demos.vue" />
-        <option value="$PROJECT_DIR$/docs/components/button.md" />
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/docs/components/input.md" />
-        <option value="$PROJECT_DIR$/docs/components/grid.md" />
         <option value="$PROJECT_DIR$/docs/components/layout.md" />
         <option value="$PROJECT_DIR$/src/row.vue" />
         <option value="$PROJECT_DIR$/src/plugin.js" />
         <option value="$PROJECT_DIR$/src/toast.vue" />
         <option value="$PROJECT_DIR$/src/icon.vue" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/tabs-body.vue" />
         <option value="$PROJECT_DIR$/src/tabs-content.vue" />
         <option value="$PROJECT_DIR$/src/tabs-head.vue" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/tabs.vue" />
         <option value="$PROJECT_DIR$/src/tabs-item.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/mixin.js" />
         <option value="$PROJECT_DIR$/docs/.vuepress/public/index.css" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/demo.vue" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/enhanceApp.js" />
         <option value="$PROJECT_DIR$/docs/components/demo.md" />
         <option value="$PROJECT_DIR$/src/button.vue" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/public/index.scss" />
         <option value="$PROJECT_DIR$/src/button-group.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/demo-1.vue" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/docs/components/grid.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/grid-vuep.vue" />
+        <option value="$PROJECT_DIR$/docs/components/highlight.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/highlightDemo.vue" />
+        <option value="$PROJECT_DIR$/src/demo.vue" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/docs/components/button.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/enhanceApp.js" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/public/index.scss" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1920" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="999" />
+    <option name="y" value="31" />
+    <option name="width" value="1680" />
+    <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -292,13 +308,6 @@
             <path>
               <item name="Components-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="button.md" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Components-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components-practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -314,14 +323,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/.vuepress/public" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,28 +385,8 @@
       <workItem from="1594186095618" duration="298000" />
       <workItem from="1594186580113" duration="38693000" />
       <workItem from="1595426396413" duration="14764000" />
-      <workItem from="1595976146351" duration="29317000" />
-    </task>
-    <task id="LOCAL-00006" summary="svg代码组件化-icon.vue">
-      <created>1551363835448</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1551363835448</updated>
-    </task>
-    <task id="LOCAL-00007" summary="重新给g-icon赋予class">
-      <created>1551363988714</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1551363988714</updated>
-    </task>
-    <task id="LOCAL-00008" summary="添加按钮的loading状态">
-      <created>1551364934645</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1551364934645</updated>
+      <workItem from="1595976146351" duration="33068000" />
+      <workItem from="1596416326478" duration="6683000" />
     </task>
     <task id="LOCAL-00009" summary="g-button上添加click事件">
       <created>1551371413042</created>
@@ -718,19 +710,42 @@
       <option name="project" value="LOCAL" />
       <updated>1596337253699</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="tabs部分代码防御性编程">
+      <created>1596386000527</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1596386000527</updated>
+    </task>
+    <task id="LOCAL-00056" summary="vuePress更新button展示页面">
+      <created>1596386054208</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1596386054208</updated>
+    </task>
+    <task id="LOCAL-00057" summary="vuePress更新Grid展示页面">
+      <created>1596415928336</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1596415928337</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199211000" />
+    <option name="totallyTimeSpent" value="209645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="999" extended-state="0" />
+    <frame x="-1920" y="23" width="1920" height="999" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660419" visible="true" weight="0.1913646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660419" visible="true" weight="0.19349681" />
       <window_info id="Structure" order="1" sideWeight="0.33958104" side_tool="true" weight="0.15831557" />
       <window_info id="npm" order="2" sideWeight="0.33751425" side_tool="true" weight="0.1790235" />
       <window_info id="Favorites" order="3" sideWeight="0.33958104" side_tool="true" weight="0.15831557" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -792,9 +807,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Row的align=left right center属性" />
-    <MESSAGE value="网格系统 响应式基本完成" />
-    <MESSAGE value="重构" />
     <MESSAGE value="row测试用例" />
     <MESSAGE value="col测试用例" />
     <MESSAGE value="布局组件 基本完成" />
@@ -817,31 +829,12 @@
     <MESSAGE value="tab标签几个小的css样式修改" />
     <MESSAGE value="tab标签实现disabled功能" />
     <MESSAGE value="disabled状态下,cursor不能选中" />
-    <option name="LAST_COMMIT_MESSAGE" value="disabled状态下,cursor不能选中" />
+    <MESSAGE value="tabs部分代码防御性编程" />
+    <MESSAGE value="vuePress更新button展示页面" />
+    <MESSAGE value="vuePress更新Grid展示页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuePress更新Grid展示页面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/example-gui-config.json" />
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -851,13 +844,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/svg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="2" column="1197" selection-start-line="2" selection-start-column="1197" selection-end-line="2" selection-end-column="1197" />
         </state>
       </provider>
     </entry>
@@ -936,18 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/grid.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/components/layout.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1001,13 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1109,7 +1076,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+    <entry file="file://$PROJECT_DIR$/src/icon.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/demo.md" />
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/demo-1.vue" />
+    <entry file="file://$PROJECT_DIR$/docs/components/grid.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button-group.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-highlight.js/dist/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="2" column="1197" selection-start-line="2" selection-start-column="1197" selection-end-line="2" selection-end-column="1197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/highlightDemo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/mixin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/highlight.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="19">
@@ -1121,29 +1160,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/icon.vue">
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/demo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/src/demo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
+        <state relative-caret-position="329">
+          <caret line="52" column="87" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#w-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#w-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1157,83 +1191,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/public/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/button-group.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/demo-1.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#1744#1780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/button.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/enhanceApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/mixin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#1813#1849#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/grid-vuep.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="236">
+          <caret line="332" column="23" selection-start-line="332" selection-start-column="23" selection-end-line="332" selection-end-column="23" />
+          <folding>
+            <element signature="n#w-row#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#w-row#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#w-row#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#w-row#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/enhanceApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/public/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/button-vuep.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1824#1845#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

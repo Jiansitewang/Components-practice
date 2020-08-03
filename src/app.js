@@ -18,7 +18,6 @@ import TabsContent from './tabs-content'
 import TabsItem from './tabs-item'
 import TabsBody from './tabs-body'
 
-
 Vue.use(plugin)
 Vue.component('w-button', Button)
 Vue.component('w-icon', Icon)
