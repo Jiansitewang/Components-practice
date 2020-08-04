@@ -1,6 +1,9 @@
 <template>
   <div class="demo">
-    <h2>📌简单用法</h2>
+    <div class="hWrapper">
+      <w-icon class="h2Icon" name="bofangqi"></w-icon>
+      <h2>简单用法</h2>
+    </div>
     <p>预览</p>
     <div class="component-wrapper">
       <div class="component-wrapper-demo">
@@ -22,7 +25,10 @@
         <span class="lock-code-word">{{isShow[0] === false ? '显示代码' : '隐藏代码'}}</span>
       </div>
     </div>
-    <h3>📌双向绑定</h3>
+    <div class="hWrapper">
+      <w-icon class="h2Icon" name="bofangqi"></w-icon>
+      <h2>双向绑定</h2>
+    </div>
     <p>预览</p>
     <div class="component-wrapper">
       <div class="component-wrapper-demo">
@@ -44,8 +50,6 @@
         <span class="lock-code-word">{{isShow[1] === false ? '显示代码' : '隐藏代码'}}</span>
       </div>
     </div>
-    <h3>attributes</h3>
-    <p>组件参数说明后期扩展</p>
   </div>
 </template>
 
