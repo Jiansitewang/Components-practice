@@ -1,9 +1,8 @@
 ---
-title: Grid
+title: Grid网格组件
 ---
 # Grid
 
-使用方法
 
 <ClientOnly>
 <grid-vp></grid-vp>

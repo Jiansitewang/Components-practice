@@ -1,9 +1,8 @@
 ---
-title: Tabs
+title: Tabs标签页
 ---
 # Tabs
 
-使用方法
 
 <ClientOnly>
 <tabs-vp></tabs-vp>

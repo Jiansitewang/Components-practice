@@ -102,8 +102,7 @@
   import 'highlight.js/styles/monokai-sublime.css';
   import mixin from '../mixin'
   Vue.use(VueHighlightJS);
-  let el = document.getElementsByClassName('tabs-item')
-  console.log(el.firstChild)
+  
   export default {
     name: 'demo',
     mixins: [mixin],

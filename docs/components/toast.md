@@ -1,9 +1,8 @@
 ---
-title: Toast
+title: Toast轻提示
 ---
 # Toast
 
-使用方法
 
 <ClientOnly>
 <toast-vp></toast-vp>

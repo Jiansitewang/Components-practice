@@ -1,9 +1,8 @@
 ---
-title: Layout
+title: Layout布局
 ---
 # Layout
 
-使用方法
 
 <ClientOnly>
 <layout-vp></layout-vp>

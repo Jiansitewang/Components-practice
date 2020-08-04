@@ -3,10 +3,10 @@ module.exports = {
   title: 'wkcUI',
   description: '学习vue',
   themeConfig: {
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
+      { text: 'Github', link: 'https://github.com/Jiansitewang/Components-practice' },
     ],
     sidebar: [
       {
@@ -29,6 +29,6 @@ module.exports = {
           '/components/tabs',
         ]
       }
-    ]
+    ],
   }
 }

@@ -1,17 +1,17 @@
 <template>
   <div class="demo">
     <h2>📌圣杯布局</h2>
-    <p>预览</p>
+    <!--<p>预览</p>-->
     <div class="component-wrapper">
       <div class="component-wrapper-demo">
         <w-layout style="color: white; margin-bottom:50px;">
-          <w-header style="display:flex;justify-content: center;align-items: center;height: 50px; background:lightskyblue;">
+          <w-header style="display:flex;justify-content: center;align-items: center;height: 50px; background:#C8E6C9;">
             header
           </w-header>
-          <w-content style="display:flex;justify-content: center;align-items: center;height: 100px; background:deepskyblue;">
+          <w-content style="display:flex;justify-content: center;align-items: center;height: 100px; background:#4CAF50;">
             content
           </w-content>
-          <w-footer style="display:flex;justify-content: center;align-items: center;height: 50px; background:lightskyblue;">
+          <w-footer style="display:flex;justify-content: center;align-items: center;height: 50px; background:#C8E6C9;">
             footer
           </w-footer>
         </w-layout>
@@ -30,22 +30,22 @@
       </div>
     </div>
     <h3>📌多栏布局</h3>
-    <p>预览</p>
+    <!--<p>预览</p>-->
     <div class="component-wrapper">
       <div class="component-wrapper-demo">
         <w-layout style="color: white; overflow:hidden; margin-bottom:50px;">
-          <w-header style="display:flex;justify-content: center;align-items: center;height: 50px; background:lightskyblue;">
+          <w-header style="display:flex;justify-content: center;align-items: center;height: 50px; background:#C8E6C9;">
             header
           </w-header>
           <w-layout>
-            <w-sider style="display:flex;justify-content: center;align-items: center;height: 100px; background:#03a9f4d9; width:200px;">
+            <w-sider style="display:flex;justify-content: center;align-items: center;height: 100px; background:#388E3C; width:200px;">
               sider
             </w-sider>
-            <w-content style="display:flex;justify-content: center;align-items: center;height: 100px; background:deepskyblue;">
+            <w-content style="display:flex;justify-content: center;align-items: center;height: 100px; background:#4CAF50;">
               content
             </w-content>
           </w-layout>
-          <w-footer style="display:flex;justify-content: center;align-items: center;height: 50px; background:lightskyblue;">
+          <w-footer style="display:flex;justify-content: center;align-items: center;height: 50px; background:#C8E6C9;">
             footer
           </w-footer>
         </w-layout>
@@ -64,21 +64,21 @@
       </div>
     </div>
     <h3>📌多栏布局2</h3>
-    <p>预览</p>
+    <!--<p>预览</p>-->
     <div class="component-wrapper">
       <div class="component-wrapper-demo">
         <w-layout style="color: white; overflow:hidden; margin-bottom:50px;">
-          <w-sider style="display:flex;justify-content: center;align-items: center; background:#03a9f4d9; width:200px; color: white;">
+          <w-sider style="display:flex;justify-content: center;align-items: center; background:#388E3C; width:200px; color: white;">
             sider
           </w-sider>
           <w-layout>
-            <w-header style="display:flex;justify-content: center;align-items: center;height: 50px; background:lightskyblue;">
+            <w-header style="display:flex;justify-content: center;align-items: center;height: 50px; background:#C8E6C9;">
               header
             </w-header>
-            <w-content style="display:flex;justify-content: center;align-items: center;height: 100px; background:deepskyblue;">
+            <w-content style="display:flex;justify-content: center;align-items: center;height: 100px; background:#4CAF50;">
               content
             </w-content>
-            <w-footer style="display:flex;justify-content: center;align-items: center;height: 50px; background:lightskyblue;">
+            <w-footer style="display:flex;justify-content: center;align-items: center;height: 50px; background:#C8E6C9;">
               footer
             </w-footer>
           </w-layout>
