@@ -96,7 +96,7 @@
           <!--<div class="code-user-desc">-->
           <!--组件描述说明-->
           <!--</div>-->
-          <pre><code class="vue">{{codeShow}}</code></pre>
+          <pre v-highlightjs><code class="vue">{{codeShow}}</code></pre>
         </div>
       </div>
       <div class="lock-code" @click="showCode(0)" ref="xxx">
@@ -139,7 +139,7 @@
           <!--<div class="code-user-desc">-->
           <!--组件描述说明-->
           <!--</div>-->
-          <pre><code class="vue">{{codeShow2}}</code></pre>
+          <pre v-highlightjs><code class="vue">{{codeShow2}}</code></pre>
         </div>
       </div>
       <div class="lock-code" @click="showCode(1)" ref="xxx">
@@ -210,7 +210,7 @@
           <!--<div class="code-user-desc">-->
           <!--组件描述说明-->
           <!--</div>-->
-          <pre><code class="vue">{{codeShow3}}</code></pre>
+          <pre v-highlightjs><code class="vue">{{codeShow3}}</code></pre>
         </div>
       </div>
       <div class="lock-code" @click="showCode(2)" ref="xxx">
@@ -224,12 +224,16 @@
 </template>
 
 <script>
+  import Vue from 'vue'
   import Icon from '../../../src/icon'
   import Button from '../../../src/button'
   import ButtonGroup from '../../../src/button-group'
   import Row from '../../../src/row'
   import Col from '../../../src/col'
+  import VueHighlightJS from 'vue-highlightjs';
+  import 'highlight.js/styles/atom-one-light.css';
   import mixin from '../mixin'
+  Vue.use(VueHighlightJS)
 
   export default {
     name: 'demo',
@@ -428,7 +432,7 @@
   .demoCol {
     height: 50px;
     border: 1px solid #ccc;
-    background: #eee;
+    background: #C8E6C9;
     display: flex;
     justify-content: center;
     align-items: center;

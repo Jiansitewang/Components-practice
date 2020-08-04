@@ -99,10 +99,10 @@
   import Button from '../../../src/button'
   import Icon from '../../../src/icon'
   import VueHighlightJS from 'vue-highlightjs';
-  import 'highlight.js/styles/monokai-sublime.css';
+  import 'highlight.js/styles/atom-one-light.css';
   import mixin from '../mixin'
   Vue.use(VueHighlightJS);
-  
+
   export default {
     name: 'demo',
     mixins: [mixin],
