@@ -13,5 +13,5 @@
 </script>
 
 <style lang="scss" scoped>
-  .w-icon {width: 1em; height: 1em; }
+  svg {width: 1em; height: 1em; }
 </style>

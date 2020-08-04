@@ -6,4 +6,5 @@ title: Button按钮
 
 <ClientOnly>
 <button-vp></button-vp>
+<button-api></button-api>>
 </ClientOnly>
